@@ -79,7 +79,7 @@
 .rav-1x1-cronologia:focus-within .rav-1x1-cronologia-lista {
   max-height: 320px;
 }
-.rav-1x1-cronologia-item {
+.rav-1x1-contenedor .rav-1x1-cronologia-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,7 +91,7 @@
   border-top: 1px solid var(--rav-1x1-borde);
   transition: background 0.15s ease;
 }
-.rav-1x1-cronologia-item:hover { background: var(--rav-1x1-acento-suave); }
+.rav-1x1-contenedor .rav-1x1-cronologia-item:hover { background: var(--rav-1x1-acento-suave); }
 .rav-1x1-cronologia-item .rav-1x1-pluma-tema {
   width: 15px;
   height: 15px;
@@ -270,7 +270,7 @@
   text-align: justify;
   white-space: pre-line;
 }
-.rav-1x1-texto-scroll p { margin: 0 0 16px 0; }
+.rav-1x1
 .rav-1x1-texto-scroll b { color: #a8bfd8; font-weight: 700; }
 .rav-1x1-texto-scroll i { color: #c4d4e8; font-style: italic; }
 .rav-1x1-texto-scroll em {

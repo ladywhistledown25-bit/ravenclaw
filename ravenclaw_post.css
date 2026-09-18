@@ -168,15 +168,13 @@
 
 .rav-post-texto-scroll {
   font-family: 'Georgia', 'Times New Roman', serif;
-  max-height: 450px;
-  overflow-y: auto;
   padding: 6px 10px 18px;
   font-size: 11px;
   line-height: 1.75;
   text-align: justify;
   white-space: pre-line;
 }
-.rav-post-texto-scroll p { margin: 0 0 16px 0; }
+.rav-post
 .rav-post-texto-scroll p:last-child { margin-bottom: 0; }
 .rav-post-texto-scroll b { color: #a8bfd8; font-weight: 700; }
 .rav-post-texto-scroll i { color: #c4d4e8; font-style: italic; }
@@ -214,10 +212,6 @@
 .rav-post-contenedor * { scrollbar-width: thin; scrollbar-color: var(--rav-post-acento) var(--rav-post-bg-panel); }
 
 /* ===== CRÉDITOS ===== */
-.rav-post-contenedor a:link, .rav-post-contenedor a:visited, .rav-post-contenedor a:hover, .rav-post-contenedor a:active {
-  color: var(--rav-post-acento);
-  text-decoration: none;
-}
 .rav-post-credits {
   text-align: center;
   margin-top: 22px;

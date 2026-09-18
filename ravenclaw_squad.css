@@ -79,7 +79,7 @@
 .rav-squad-cronologia:focus-within .rav-squad-cronologia-lista {
   max-height: 320px;
 }
-.rav-squad-cronologia-item {
+.rav-squad-contenedor .rav-squad-cronologia-item {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -91,7 +91,7 @@
   border-top: 1px solid var(--rav-squad-borde);
   transition: background 0.15s ease;
 }
-.rav-squad-cronologia-item:hover { background: var(--rav-squad-acento-suave); }
+.rav-squad-contenedor .rav-squad-cronologia-item:hover { background: var(--rav-squad-acento-suave); }
 .rav-squad-cronologia-item .rav-squad-pluma-tema {
   width: 15px;
   height: 15px;
